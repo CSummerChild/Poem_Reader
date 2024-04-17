@@ -1,1 +1,1 @@
-![Alt text}(Drawing7.png)
+![UML Diagram](Drawing7.png)
