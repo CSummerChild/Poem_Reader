@@ -1,3 +1,12 @@
+/**Class: PoemReader
+ * @author Tyler Robinson
+ * @version 1.7
+ * Course: ITEC 2140 Spring 2023
+ * Written: April 17, 2024
+ */
+
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,11 +19,17 @@ public class PoemReader {
             String poemName;
             String poetName;
 
-            // Read the first line (poem name)
+
             while ((poemName = reader.readLine()) != null) {
-                // Read the second line (poet name)
+
                 if ((poetName = reader.readLine()) != null) {
-                    // Create a Poem object for each poem name and poet pair
+/**Class: ReadCSCVFile
+ * @author Tyler Robinson
+ * @version 1.5
+ * Course: ITEC 2140 Spring 2023
+ * Written: April 17, 2024
+ */
+
                     Poem poem = new Poem();
                     poem.setName(poemName);
                     poem.setPoet(poetName);
