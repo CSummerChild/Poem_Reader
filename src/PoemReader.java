@@ -23,12 +23,6 @@ public class PoemReader {
             while ((poemName = reader.readLine()) != null) {
 
                 if ((poetName = reader.readLine()) != null) {
-/**Class: ReadCSCVFile
- * @author Tyler Robinson
- * @version 1.5
- * Course: ITEC 2140 Spring 2023
- * Written: April 17, 2024
- */
 
                     Poem poem = new Poem();
                     poem.setName(poemName);
